@@ -6,7 +6,7 @@
 /*   By: dbogni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/26 13:57:26 by dbogni            #+#    #+#             */
-/*   Updated: 2023/09/26 16:20:56 by dbogni           ###   ########.fr       */
+/*   Updated: 2023/09/28 17:37:23 by dbogni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 void	ft_is_negative(int n)
@@ -15,7 +15,7 @@ void	ft_is_negative(int n)
 	{
 		write(1, "N", 1);
 	}
-	else 
+	else
 	{
 		write(1, "P", 1);
 	}

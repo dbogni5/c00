@@ -6,7 +6,7 @@
 /*   By: dbogni <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/26 12:55:30 by dbogni            #+#    #+#             */
-/*   Updated: 2023/09/27 17:00:40 by dbogni           ###   ########.fr       */
+/*   Updated: 2023/09/28 17:36:45 by dbogni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -18,7 +18,7 @@ void	ft_print_reverse_alphabet(void)
 	c = 'z';
 	while (c >= 'a')
 	{
-		write(1, &c, 1); 
-		c--; 
+		write(1, &c, 1);
+		c--;
 	}
 }
